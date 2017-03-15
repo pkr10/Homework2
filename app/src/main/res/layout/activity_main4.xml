@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rok.myapplication.Main4Activity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="개수 입력"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/rt1"
+        android:layout_marginStart="61dp"
+        android:id="@+id/re1" />
+
+    <TextView
+        android:text="스파게티(13000원)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/rt2"
+        android:layout_below="@+id/rt1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="개수 입력"
+        android:ems="10"
+        android:layout_below="@+id/re2"
+        android:layout_alignStart="@+id/re2"
+        android:layout_marginTop="12dp"
+        android:id="@+id/re3" />
+
+    <TextView
+        android:text="주문금액"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/rt4"
+        android:layout_marginBottom="42dp"
+        android:id="@+id/rt5" />
+
+    <TextView
+        android:text="0개"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rt4"
+        android:layout_alignEnd="@+id/re2"
+        android:layout_marginEnd="13dp"
+        android:id="@+id/rt6" />
+
+    <TextView
+        android:text="0원"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rt5"
+        android:layout_alignEnd="@+id/rt6"
+        android:id="@+id/rt7" />
+
+    <TextView
+        android:text="샐러드(9000원)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rt3"
+        android:layout_alignBaseline="@+id/re3"
+        android:layout_alignBottom="@+id/re3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/rt2" />
+
+    <TextView
+        android:text="피자(15000원)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rt1"
+        android:layout_alignBaseline="@+id/re1"
+        android:layout_alignBottom="@+id/re1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="금액계산기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/rb1"
+        android:layout_below="@+id/rc1"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/rt6" />
+
+    <TextView
+        android:text="주문 개수"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:id="@+id/rt4"
+        android:layout_below="@+id/rb1"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="멤버쉽 카드 있음(10%할인)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rc1"
+        android:layout_below="@+id/re3"
+        android:layout_alignStart="@+id/rt5"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="개수 입력"
+        android:ems="10"
+        android:id="@+id/re2"
+        android:layout_alignTop="@+id/rt2"
+        android:layout_alignStart="@+id/re1" />
+</RelativeLayout>
