@@ -38,6 +38,7 @@
         android:id="@+id/tt2" />
 
     <EditText
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -46,6 +47,7 @@
         android:id="@+id/te2" />
 
     <Button
+        android:onClick="onmyclock"
         android:text="섭씨계산"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

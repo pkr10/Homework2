@@ -49,6 +49,8 @@ public class Main3Activity extends AppCompatActivity {
         double result = (double)((n-32)/1.8);
         return result;
     }
+    public void onmyclick(View v){}
+
 
 
 }

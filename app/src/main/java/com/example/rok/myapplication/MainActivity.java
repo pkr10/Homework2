@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b1,b2,b3,b4;
+        Button b1,b2,b3,b4,b5,b6;
         b1 = (Button)findViewById(R.id.mb1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,5 +45,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
+        b5 = (Button)findViewById(R.id.mb5);
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(MainActivity.this,Main8Activity.class);
+                startActivity(intent5);
+            }
+        });
+        b6 = (Button)findViewById(R.id.mb6);
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(MainActivity.this,Main9Activity.class);
+                startActivity(intent6);
+            }
+        });
+
+
     }
 }

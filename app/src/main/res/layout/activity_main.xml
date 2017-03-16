@@ -39,4 +39,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mb4" />
+
+    <Button
+        android:text="학점계산기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb5" />
+    <Button
+        android:text="레스토랑 예약시스템"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mb6" />
 </LinearLayout>
